@@ -1,0 +1,135 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_idNumber",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_managerId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_hourlyRate",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getAnnualCost",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hourlyRate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "idNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "managerId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"base/Salesperson.sol": "Salesperson"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"base/Employee.sol": {
+			"keccak256": "0x7def669d4985867f72bfaa306a7dd61c594e1e08e01e8200ba34e02c5b1deeac",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://23d85c193bcdf4a72b3ad9b3530d558815c816646515299de39838902e07d4f1",
+				"dweb:/ipfs/QmfJw3FFFtjmd3FtJcCHCfJAsNTn2SWKFD5XQouCD32MsT"
+			]
+		},
+		"base/Hourly.sol": {
+			"keccak256": "0x56164a3f5897cd9b22f09b15c20f38b59d3787661c787771f4e8efeba81d53d7",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://00580e9f7c0158e19ec52844c55814d0abdb425a55317949cae0d1ad9020cab6",
+				"dweb:/ipfs/QmdEh61rqYn7qxEZDm87rD6LtxbN1eFjaBZVaSECNFrfWT"
+			]
+		},
+		"base/Salesperson.sol": {
+			"keccak256": "0x1d8229dff7f2b229b746867d9617ef266bc4cc0da99d14b8b3d4524597832a82",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://315c8847922a3a042cd6e48fed99db64c4cc19e1cf75857fb0605a1d01365def",
+				"dweb:/ipfs/QmTQnCawnFGFuCHBhXQJfB3LDgvkFgdRvipXLkz7x3fAYE"
+			]
+		}
+	},
+	"version": 1
+}

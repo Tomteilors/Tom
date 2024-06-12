@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "addressBooks",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "deploy",
+				"outputs": [
+					{
+						"internalType": "contract AddressBook",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllAddressBooks",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"base/AddressBookFactory.sol": "AddressBookFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"base/AddressBook.sol": {
+			"keccak256": "0x2022221c71b864a1ad5fc49fa0334191d4ed02d37825f112d3bc38cbb5350c41",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://3d4f065d4e3226db6fd9ce78bcb03881f5573d50305bac96bebdf02e52ba1e28",
+				"dweb:/ipfs/QmaNJ2RFxyQt3azPZjNfqPgJp1fh4spvibfY8G74q4t3ZD"
+			]
+		},
+		"base/AddressBookFactory.sol": {
+			"keccak256": "0x60fdf507ae49c03a52ce44155a15e96d498a43b2f5863d3dde3a55ade49adbd1",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://09c6cc26341e29032a55b9b6831cbf0acddac459c9bef480fa43d5a51fa4dccb",
+				"dweb:/ipfs/QmSWt4m9899dSag2Ncq914XwmcvMZYm3KTooKMZkrikAn7"
+			]
+		}
+	},
+	"version": 1
+}
